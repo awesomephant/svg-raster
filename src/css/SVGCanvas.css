@@ -1,0 +1,45 @@
+.drawing {
+    overflow: hidden;
+    position: relative;
+    border: 1px solid white;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%)
+}
+
+.grid {
+    position: absolute;
+    z-index: -100;
+    left: 0;
+    top: 0;
+}
+
+.grid polygon {
+    stroke: var(--grid-color);
+    stroke-width: .5px;
+}
+
+path, polygon {
+    fill: none;
+    stroke: none;
+    stroke-width: 2px;
+}
+
+circle {
+    fill: white;
+}
+
+.hidden {
+    display: none;
+}
+.workDrawing {
+    display: none;
+}
+
+.outputDrawing {
+}
+
+.inputImage {
+    position: absolute;
+    z-index: -100;
+}

@@ -1,0 +1,18 @@
+:root {
+  --grid-color: rgb(218, 214, 214);  
+}
+.app-header {
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: white;
+  font-size: .8rem;
+  pointer-events: none;
+}
+.app-wrap {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: rgb(10, 10, 10)
+}
